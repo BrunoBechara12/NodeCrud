@@ -1,4 +1,4 @@
-POST http://localhost:3330/videos
+POST https://nodecrud-j9hb.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,27 +9,21 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3330/videos
+GET https://nodecrud-j9hb.onrender.com/videos
 
 ###
 
-PUT http://localhost:3330/videos/1aab2e7b-47c9-4fbe-a4a9-381208be26f7
+PUT https://nodecrud-j9hb.onrender.com/videos/c1a711c1-d89d-4cbb-8cd0-6add7c0851fb
 Content-Type: application/json
 
 {
-    "title": "NAO NODE alteração final",
+    "title": "render",
     "description": "Esse é o vídeo numero 02 alterado",
     "duration": 200
 }
 
 ###
 
-DELETE http://localhost:3330/videos/1aab2e7b-47c9-4fbe-a4a9-381208be26f7
-Content-Type: application/json
+DELETE https://nodecrud-j9hb.onrender.com/videos/c1a711c1-d89d-4cbb-8cd0-6add7c0851fb
 
-{
-    "title": "NAO NODE",
-    "description": "Esse é o vídeo numero 02 alterado",
-    "duration": 200
-}
 

@@ -1,0 +1,35 @@
+POST http://localhost:3330/videos
+Content-Type: application/json
+
+{
+    "title": "Video Node",
+    "description": "Esse é o vídeo numero 01",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3330/videos
+
+###
+
+PUT http://localhost:3330/videos/1aab2e7b-47c9-4fbe-a4a9-381208be26f7
+Content-Type: application/json
+
+{
+    "title": "NAO NODE alteração final",
+    "description": "Esse é o vídeo numero 02 alterado",
+    "duration": 200
+}
+
+###
+
+DELETE http://localhost:3330/videos/1aab2e7b-47c9-4fbe-a4a9-381208be26f7
+Content-Type: application/json
+
+{
+    "title": "NAO NODE",
+    "description": "Esse é o vídeo numero 02 alterado",
+    "duration": 200
+}
+
